@@ -110,6 +110,7 @@ class SingleLinkedList{
 	 /* This function prints contents of linked list starting from head */
     public void printList() { 
         Node n = head; 
+         System.out.println(n.data + "Node "); 
         while (n != null) { 
             System.out.print(n.data + " "); 
             n = n.next; 
